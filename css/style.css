@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #b2cdce;
+}
+ul li {
+    padding: 0 0 25px 0;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+ul li a:hover {
+    color: #f52a2a;
+}
+.look-console {
+    display: flex;
+}
+.image {
+    width: 40px;
+    height: 40px;
+    padding: 25px 40px;
+}
+.look {
+    padding-left: 15px;
+}
+.return {
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid #8b008b;
+    margin-left: 15px;
+}
+.return a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: none;
+    color: #8b008b;
+}
+p {
+    cursor: pointer;
+    font-weight: 500;
+}
+code {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-transform: none;
+}
+p:hover {
+    color: #8b4513;
+}
+.command-row {
+    display: flex;
+    justify-content: space-around;
+}
+.console-log,
+.alert-item,
+.prompt-item {
+    margin: 15px 0;
+    padding: 15px 15px 55px 15px;
+    text-align: center;
+    display: block;
+    border: 2px solid #000;
+    align-items: center;
+    max-width: 350px;
+}
+.wrapper {
+    border: 5px solid #000;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #808080;
+}
+#trafficLight {
+    margin: 15% auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+}
+.userTextField {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin: 50px auto;
+    border: 5px solid #000000;
+}
+.userTextField a {
+    text-decoration: none;
+    line-height: 100px;
+}
+.input {
+    margin: 50px;
+    width: 500px;
+    height: 80px;
+    padding-left: 40px;
+}
+.submit {
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #ff7f50;
+    color: cornsilk;
+}
+.label {
+    margin: 15px;
+}
